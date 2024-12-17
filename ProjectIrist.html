@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Irist - Your Productivity Companion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="Resources\IrisAppIcon.ico" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #AAD6E5;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .header h1 {
+                font-size: 2.5rem;
+                color: #133B62;
+            }
+
+            .header p {
+                font-size: 1rem;
+                color: #555;
+            }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .app-icon {
+            display: flex;
+            justify-content: center;
+        }
+
+            .app-icon img {
+                width: 150px;
+                height: 150px;
+                border-radius: 20%;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+        .screenshots {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+            .screenshots img {
+                width: 100%;
+                max-width: 300px;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+        .description {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .footer a {
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 1rem;
+                font-weight: 500;
+                color: #fff;
+                background-color: #133B62;
+                text-decoration: none;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+
+                .footer a:hover {
+                    background-color: #005a9e;
+                }
+
+        .privacy-policy {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+            .privacy-policy a {
+                font-size: 0.9rem;
+                color: #133B62;
+                text-decoration: none;
+                transition: color 0.3s;
+            }
+
+                .privacy-policy a:hover {
+                    color: #005a9e;
+                }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <div class="header">
+            <h1>Project Irist</h1>
+            <p>Your productivity companion, available on the Microsoft Store.</p>
+        </div>
+        <div class="content">
+            <div class="app-icon">
+                <img src="Resources\IrisAppIcon1080.png" alt="Project Irist Icon">
+            </div>
+            <div class="description">
+                <p>Project Irist is designed to help users maintain healthier screen habits by following the 20-20-20 rule: every 20 minutes, take a 20-second break to look at something 20 feet away. This practice can help reduce digital eye strain, which is common among people who spend long hours in front of screens.</p>
+            </div>
+            <div class="screenshots">
+                <img src="Resources\Screenshots\SettingsScreenshot.png" alt="App Screenshot 1">
+                <img src="Resources\Screenshots\FullScreenScreenshot.png" alt="App Screenshot 2">
+                <img src="Resources\Screenshots\BannerScreenshot.png" alt="App Screenshot 3">
+            </div>
+
+        </div>
+        <div class="footer">
+            <a href="https://www.microsoft.com/store/apps" target="_blank">Get it on Microsoft Store</a>
+        </div>
+        <div class="privacy-policy">
+            <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+        </div>
+    </div>
+</body>
+</html>
