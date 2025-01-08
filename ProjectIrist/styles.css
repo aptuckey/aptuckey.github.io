@@ -59,10 +59,9 @@ header p {
 .app-header .app-icon-large {
     width: 120px;
     height: 120px;
-    margin-bottom: 15px;
-    border-radius: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
     object-fit: cover;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .app-header h2 {
@@ -128,7 +127,20 @@ header p {
     color: #555;
     margin: 0;
 }
-
+.screenshot-carddemo {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.screenshot-carddemo img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 /* Footer */
 footer {
     text-align: center;
@@ -166,7 +178,7 @@ footer {
 
 /* Action Buttons */
 .app-actions {
-    margin-top: 30px;
+    margin-top: 5px;
     display: flex;
     justify-content: center;
     gap: 20px;
