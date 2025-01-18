@@ -12,7 +12,9 @@ header {
     padding: 20px;
     background-color: #1b405b;
     color: white;
-    border-bottom: 2px solid #14364f;
+    border-bottom: 2px solid 1b405b;
+    margin: 10px;
+    border-radius: 8px;
 }
 
 header h1 {
@@ -146,10 +148,11 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background: #333;
+    background: #1b405b;
     color: white;
     font-size: 0.9rem;
     border-radius: 8px;
+    margin: 10px;
 }
 
 /* Tutorial Section */

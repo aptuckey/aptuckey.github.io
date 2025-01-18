@@ -10,9 +10,11 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #1b405b;
+    background-color: #255439;
     color: white;
-    border-bottom: 2px solid #14364f;
+    border-bottom: 2px solid #255439;
+    margin: 10px;
+    border-radius: 8px;
 }
 
 header h1 {
@@ -29,7 +31,7 @@ header p {
     display: inline-block;
     padding: 10px 15px;
     color: white;
-    background-color: #14364f;
+    background-color: #2e6948;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -38,7 +40,7 @@ header p {
 }
 
 .nav-link:hover {
-    background-color: #005085;
+    background-color: #5DB146;
 }
 
 /* App Details */
@@ -145,8 +147,9 @@ header p {
 footer {
     text-align: center;
     margin-top: 20px;
+    margin: 10px;
     padding: 10px;
-    background: #333;
+    background: #255439;
     color: white;
     font-size: 0.9rem;
     border-radius: 8px;
@@ -194,20 +197,4 @@ footer {
     font-weight: bold;
     color: white;
     transition: background 0.3s ease;
-}
-
-.download-button {
-    background-color: #1b405b;
-}
-
-.download-button:hover {
-    background-color: #005085;
-}
-
-.privacy-button {
-    background-color: #333;
-}
-
-.privacy-button:hover {
-    background-color: #222;
 }
