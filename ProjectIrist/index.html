@@ -9,16 +9,18 @@
 </head>
 <body>
     <header>
-        <h1>Project Irist</h1>
-        <p>Rest your eyes</p>
         <nav>
-            <a href="..\index.html" class="nav-link">Home</a>
+            <a href="..\index.html" class="nav-link">Portfolio</a>
             <a href="Tutorial.html" class="nav-link">Tutorial</a>
             <a href="PrivacyPolicy.html" class="nav-link">Privacy Policy</a>
-
         </nav>
     </header>
     <main>
+        <div class="header-content">
+            <h1 class="hello-text" >PROJECT IRIST</h1>
+            <br/>
+            <h1>Rest Your Eyes</h1> 
+        </div>
         <section class="app-details">
             <div class="app-header">
                 <img src="Resources/IconShadow.png" alt="App Icon" class="app-icon-large">
@@ -35,29 +37,27 @@
                         </ms-store-badge>
                     </div>
                 </div>
-                <h2>About the App</h2>
+                <br/>
+                <h2>General Overview</h2>
                 <p>Project Irist is designed to help users maintain healthier screen habits by following the 20-20-20 rule. This practice can reduce digital eye strain, which is common among people who spend long hours in front of screens.</p>
             </div>
-            <div class="app-features">
-                <h2>Features</h2>
-                <ul>
-                    <li>Intelligent Timer Management.</li>
-                    <li>Multi-Monitor Support.</li>
-                    <li>Banner or Fullscreen Timer.</li>
-                    <li>Launch on Startup.</li>
-                </ul>
-            </div>
             <div class="app-tutorial">
+                <br/>
                 <h2>What is 20-20-20?</h2>
-                <p>20-20-20 is a guideline that helps reduce eye strain. Every 20 minutes, look up from your screen and focus on an object that is 20 feet away for at least 20 seconds.</p>
+                <p>20-20-20 is a guideline that helps reduce eye strain. Every 20 minutes, look away from your screen and focus on an object that is 20 feet away for at least 20 seconds.</p>
+                <br/>
                 <h2>How does it work?</h2>
                 <p>Project Irist will launch at startup. A rest preiod will occur every 20 minutes. When the PC sleeps or locks it is assumed that you are not looking at a screen. When you return the 20 minutes will restart from the begining.</p>
+                <br/>
+                <h2>Developing the app</h2>
+                <p>Project Irist is a Windows application I developed to help users follow the 20-20-20 rule, promoting eye health through a seamless, hands-free experience. The development process involved designing an intuitive UI using WPF, implementing background timers with asynchronous task management, and optimizing system resource usage to ensure minimal CPU and memory footprint. A key goal was to intelligently manage a timer knowing that users are interrupted throughout the day, which I solved by leveraging Windows event listeners and event-driven programming. I also integrated system notifications and audio cues using the Windows Notification API for accessibility. A hurdle was meeting Microsoft Store requirements, requiring adjustments for security policies, packaging the app with MSIX, and ensuring smooth deployment. Through this project, I strengthened my skills in C#, .NET, Windows application lifecycle management, and performance optimization.</p>
+                <br/>
             </div>
             <div class="app-screenshots">
                 <h2>Screenshots</h2>
                 <div class="screenshot-gallery">
                     <div class="screenshot-card">
-                        <img src="https://store-images.s-microsoft.com/image/apps.27010.14560804685957867.2d777a01-67a8-4e19-bf94-2ba09d67a663.aab60d04-09d0-4b35-abcd-a382993dd6c6" alt="Screenshot 1">
+                        <img src="https://store-images.s-microsoft.com/image/apps.41298.14560804685957867.ea70e1ae-a280-4668-8d55-7a4d1aca2c82.6e13f5a9-7d9b-4d5b-8fc4-d0218c48dadb" alt="Screenshot 1">
                         <p>Main Window</p>
                     </div>
                     <div class="screenshot-card">

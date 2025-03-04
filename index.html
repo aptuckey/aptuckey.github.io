@@ -8,12 +8,11 @@
 </head>
 <body>
     <main>
-        <div style="text-align: center;">
-            <div style="text-align: left;">
-                <h1>HELLO<br/>I'M DREW TUCKEY</h1> 
-            </div>
+        <div class="header-content">
+            <h1 class="hello-text" >HELLO</h1>
+            <br/>
+            <h1>I'M DREW</h1> 
         </div>
-       
         <br/>
         <br/>
         <div class="about-skills-container">
@@ -22,7 +21,7 @@
                 <p>I'm a software developer with a passion for creating efficient and useful solutions. I have experience with a variety of technologies and languages, and I'm always looking to learn more.</p>
             </section>
             <section class="skills">
-                <h2>Skills/Technologies</h2> 
+                <h2>Skills & Technologies</h2> 
                 <table>
                     <tr>
                       <td>
@@ -50,31 +49,50 @@
             </section>
         </div>
         <br/>    
-        <br/>   
-        <h2>Projects</h2>
-        <section class="app-list">
-            <a href="Roadside/index.html" class="app-card">
-                <img src="Roadside/Resources/IconShadow.png" alt="Roadside Icon" class="app-icon" width="50">
-                <h2>Roadside</h2>
-                <p>AWS, MongoDB, Node.js, Flutter</p>
-            </a>
-            <a href="ProjectIrist/index.html" class="app-card">
-                <img src="ProjectIrist/Resources/IconShadow.png" alt="ProjectIrist Icon" class="app-icon" width="100">
-                <h2>Project Irist</h2>
-                <p> .NET Core, WPF, UWP</p>
-            </a>
-            <a href="index.html" class="app-card">
-                <img src="icon3.png" alt="App 3 Icon" class="app-icon">
-                <h2>RPX Report Viewer</h2>
-                <p> .NET Framework, WinForms</p>
-            </a>
-            <!--a href="app4.html" class="app-card">
-                <img src="icon4.png" alt="App 4 Icon" class="app-icon">
-                <h2>TODO</h2>
-                <p>TODO.</p>
-            </a-->
-        </section>
+        <br/>
+        <div class="applistParent"> 
+            <h2>Projects</h2>
+            <hr style="width:50%;text-align:center;"> 
+            <section class="app-list"> 
+                <a href="Roadside/index.html" class="app-card">
+                    <img src="Roadside/Resources/IconShadow.png" alt="Roadside Icon" class="app-icon">
+                    <h3>Roadside</h3>
+                    <p>AWS, MongoDB, Node.js, Flutter</p>
+                </a>
+                <a href="ProjectIrist/index.html" class="app-card">
+                    <img src="ProjectIrist/Resources/IconShadow.png" alt="ProjectIrist Icon" class="app-icon" >
+                    <h3>Project Irist</h3>
+                    <p> .NET Core, WPF, UWP</p>
+                </a>
+                <a href="CRV/index.html" class="app-card">
+                    <img src="CRP/rv.ico" alt="RPX Report Viewer Icon" class="app-icon">
+                    <h3>RPX Report Viewer</h3>
+                    <p> .NET Framework, WinForms</p>
+                </a>
+                <!--a href="app4.html" class="app-card">
+                    <img src="icon4.png" alt="App 4 Icon" class="app-icon">
+                    <h2>TODO</h2>
+                    <p>TODO.</p>
+                </a-->
+            </section>
+        </div>  
+        <br/>    
+        <br/>
+        <div class="applistParentLinks">
+            <h2>Links</h2>
+            <hr style="width:50%;text-align:center;"> 
+            <section class="app-listLinks"> 
+                <a href="https://github.com/aptuckey" class="app-card">
+                    <img src="github.png" alt="Github Icon" class="link-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/drewtuckey/" class="app-card">
+                    <img src="lnkin.png" alt="LinkedIn Icon" class="link-icon">
+                </a>           
+            </section>
+        </div>
     </main>
+    <br/>
+    <br/>
     <footer>
         <p>&copy; 2025 Drew Tuckey. All rights reserved.</p>
     </footer>
