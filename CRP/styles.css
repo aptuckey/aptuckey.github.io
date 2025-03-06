@@ -1,0 +1,177 @@
+/* General Reset */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    color: #fffbfb;
+    font-family: Raleway, Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #002e6e;
+    padding: 5px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px ;
+    color: white;
+    border-radius: 8px;
+    width: 100%; /* Ensure the header takes the full width */
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    width: 100%; /* Ensure the header-content takes the full width */
+}
+
+.header-content h1 {
+    text-align: center;
+    margin: 0; /* Remove any default margin */
+}
+
+.header nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%; /* Ensure the nav takes the full width */
+    margin-top: 10px; /* Add some space between the h1 and nav */
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 5px; /* Add some space between the nav links */
+}
+
+.nav-link:hover {
+    background-color: #00204d;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 700px;
+    background-color: #002e6e;
+    align-content: center;
+    align-items: center;
+}
+
+.hello-text {
+    font-size: 5rem;
+    letter-spacing: 0.2em; /* Adjust the letter spacing as needed */
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.app-header {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app-header .app-icon-large {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+.app-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.app-header p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Features Section */
+.app-features h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.app-features ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    line-height: 1.6;
+}
+
+/* Screenshots Section */
+.app-screenshots h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.screenshot-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.screenshot-card {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.screenshot-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.screenshot-card img:hover {
+    transform: scale(1); /* Scale the image to 110% on hover */
+}
+
+.screenshot-card p {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin: 0;
+}
+.screenshot-carddemo {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.screenshot-carddemo img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #002e6e;
+    color: #fffbfb;
+    font-size: 0.9rem;
+    margin-top: 100px;
+}
