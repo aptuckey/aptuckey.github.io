@@ -11,6 +11,10 @@ body {
     background-color: #1b3e2a;
     padding: 5px;
 }
+#lll {
+    color: #5DB146;
+    font-size: 1.8rem;
+}
 
 header {
     display: flex;
