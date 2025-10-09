@@ -1,100 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Redirecting</title>
+  <!-- change REDIRECT_URL in the script below as needed -->
+  <meta http-equiv="refresh" content="5;url=https://aptuckey.github.io/">
+  <style>
+    html,body{height:100%;margin:0}
+    body{display:flex;align-items:center;justify-content:center;background:#243E36;color:#e6eef8;font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+    .wrap{text-align:center}
+    .msg{font-size:1.25rem;margin-bottom:20px}
+    .spinner{
+      width:72px;height:72px;border-radius:50%;display:inline-block;
+      border:8px solid rgba(255,255,255,0.08);
+      border-top-color:#7CA982; animation:spin 1s linear infinite;
+      box-shadow:0 4px 14px rgba(2,6,23,0.6);
+    }
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .sub{margin-top:12px;color:rgba(230,238,248,0.8);font-size:0.95rem}
+  </style>
 </head>
 <body>
-    <main>
-        <div class="header-content">
-            <h1 class="hello-text" >HELLO</h1>
-            <br/>
-            <h1>I'M DREW</h1> 
-        </div>
-        <br/>
-        <br/>
-        <div class="about-skills-container">
-            <section class="about-me">
-                <h2>About Me</h2>
-                <p>I'm a software developer with a passion for creating efficient and useful solutions. I have experience with a variety of technologies and languages, and I'm always looking to learn more.</p>
-            </section>
-            <section class="skills">
-                <h2>Skills & Technologies</h2> 
-                <table>
-                    <tr>
-                      <td>
-                        <ul>
-                            <li>C#</li>
-                            <li>JavaScript</li>
-                            <li>Java</li>
-                            <li>SQL Server</li>
-                            <li>Python</li>
-                            <li>Powershell</li>
-                        </ul>
-                      </td>
-                      <td>
-                        <ul>
-                            <li>Github</li>
-                            <li>Jira</li>
-                            <li>Node.js</li>
-                            <li>RDBMS</li>
-                            <li>.NET</li>
-                            <li>MongoDB</li>
-                        </ul>
-                      </td>
-                    </tr>
-                    </table>
-            </section>
-        </div>
-        <br/>    
-        <br/>
-        <div class="applistParent"> 
-            <h2>Projects</h2>
-            <hr style="width:50%;text-align:center;"> 
-            <section class="app-list"> 
-                <a href="Roadside/index.html" class="app-card">
-                    <img src="Roadside/Resources/IconShadow.png" alt="Roadside Icon" class="app-icon">
-                    <h3>Roadside</h3>
-                    <p>AWS, MongoDB, Node.js, Flutter</p>
-                </a>
-                <a href="ProjectIrist/index.html" class="app-card">
-                    <img src="ProjectIrist/Resources/IconShadow.png" alt="ProjectIrist Icon" class="app-icon" >
-                    <h3>Project Irist</h3>
-                    <p> .NET Core, WPF, UWP</p>
-                </a>
-                <a href="CRP/index.html" class="app-card">
-                    <img src="CRP/Resources/RPXV.png" alt="RPX Report Viewer Icon" class="app-icon">
-                    <h3>RPX Report Viewer</h3>
-                    <p> .NET Framework, WinForms</p>
-                </a>
-                <!--a href="app4.html" class="app-card">
-                    <img src="icon4.png" alt="App 4 Icon" class="app-icon">
-                    <h2>TODO</h2>
-                    <p>TODO.</p>
-                </a-->
-            </section>
-        </div>  
-        <br/>    
-        <br/>
-        <div class="applistParentLinks">
-            <h2>Links</h2>
-            <hr style="width:50%;text-align:center;"> 
-            <section class="app-listLinks"> 
-                <a href="https://github.com/aptuckey" class="app-card">
-                    <img src="github.png" alt="Github Icon" class="link-icon">
-                </a>
-                <a href="https://www.linkedin.com/in/drewtuckey/" class="app-card">
-                    <img src="lnkin.png" alt="LinkedIn Icon" class="link-icon">
-                </a>           
-            </section>
-        </div>
-    </main>
-    <br/>
-    <br/>
-    <footer>
-        <p>&copy; 2025 Drew Tuckey. All rights reserved.</p>
-    </footer>
+  <div class="wrap" role="status" aria-live="polite">
+    <div class="msg">My portfoloio is now at Chickadee-Labs.com — redirecting.</div>
+    <div class="spinner" aria-hidden="true"></div>
+    <div class="sub">You will be redirected in 5 seconds. If not, <a href="https://www.chickadee-labs.com/" style="color:#7CA982">click here</a>.</div>
+  </div>
+
+  <script>
+    // Update the URL below if you want a different redirect target
+    const REDIRECT_URL = 'https://www.chickadee-labs.com/';
+    // fallback JS redirect in case meta refresh is blocked
+    setTimeout(()=> { window.location.href = REDIRECT_URL; }, 5000);
+  </script>
 </body>
-</html>
