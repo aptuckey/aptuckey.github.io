@@ -1,82 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Irist</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="Resources\IrisAppIcon.ico" type="image/x-icon">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Redirecting...</title>
+  <!-- change REDIRECT_URL in the script below as needed -->
+  <meta http-equiv="refresh" content="5;url=https://aptuckey.github.io/">
+  <style>
+    html,body{height:100%;margin:0}
+    body{display:flex;align-items:center;justify-content:center;background:#243E36;color:#e6eef8;font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+    .wrap{text-align:center}
+    .msg{font-size:1.25rem;margin-bottom:20px}
+    .spinner{
+      width:72px;height:72px;border-radius:50%;display:inline-block;
+      border:8px solid rgba(255,255,255,0.08);
+      border-top-color:#7CA982; animation:spin 1s linear infinite;
+      box-shadow:0 4px 14px rgba(2,6,23,0.6);
+    }
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .sub{margin-top:12px;color:rgba(230,238,248,0.8);font-size:0.95rem}
+  </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="..\index.html" class="nav-link">Portfolio</a>
-            <a href="Tutorial.html" class="nav-link">Tutorial</a>
-            <a href="PrivacyPolicy.html" class="nav-link">Privacy Policy</a>
-        </nav>
-    </header>
-    <main>
-        <div class="header-content">
-            <h1 class="hello-text" >PROJECT IRIST</h1>
-            <br/>
-            <h1>Rest Your Eyes</h1> 
-        </div>
-        <section class="app-details">
-            <div class="app-header">
-                <img src="Resources/IconShadow.png" alt="App Icon" class="app-icon-large">
-                <div class="app-actions" style="display: flex; justify-content: center; align-items: center;">
-                    <script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
-                    <div style=" transform: scale(0.7); transform-origin: center;">
-                        <ms-store-badge
-                            productid="9p2kmh0q09x0"
-                            productname="Project Irist - rest your eyes"
-                            window-mode="direct"
-                            theme="dark"
-                            language="en-us"
-                            animation="on">
-                        </ms-store-badge>
-                    </div>
-                </div>
-                <br/>
-                <br/>
-                <h2>General Overview</h2>
-                <p>Project Irist is designed to help users maintain healthier screen habits by following the 20-20-20 rule. This practice can reduce digital eye strain, which is common among people who spend long hours in front of screens.</p>
-            </div>
-            <div class="app-tutorial">
-                <br/>
-                <h2>What is 20-20-20?</h2>
-                <p>20-20-20 is a guideline that helps reduce eye strain. Every 20 minutes, look away from your screen and focus on an object that is 20 feet away for at least 20 seconds.</p>
-                <br/>
-                <br/>
-                <h2>How does it work?</h2>
-                <p>Project Irist will launch at startup. A rest preiod will occur every 20 minutes. When the PC sleeps or locks it is assumed that you are not looking at a screen. When you return the 20 minutes will restart from the begining.</p>
-                <br/>
-                <br/>
-                <h2>Developing the app</h2>
-                <p>Project Irist is a Windows application I developed to help users follow the 20-20-20 rule, promoting eye health through a seamless, hands-free experience. The development process involved designing an intuitive UI using WPF, implementing background timers with asynchronous task management, and optimizing system resource usage to ensure minimal CPU and memory footprint. A key goal was to intelligently manage a timer knowing that users are interrupted throughout the day, which I solved by leveraging Windows event listeners and event-driven programming. I also integrated system notifications and audio cues using the Windows Notification API for accessibility. A hurdle was meeting Microsoft Store requirements, requiring adjustments for security policies, packaging the app with MSIX, and ensuring smooth deployment. Through this project, I strengthened my skills in C#, .NET, Windows application lifecycle management, and performance optimization.</p>
-                <br/>
-            </div>
-            <div class="app-screenshots">
-                <h2>Screenshots</h2>
-                <div class="screenshot-gallery">
-                    <div class="screenshot-card">
-                        <img src="https://store-images.s-microsoft.com/image/apps.23883.14560804685957867.995a2227-dcbc-445d-b032-bcd904d69b01.4cba0318-7ea4-4730-9933-b671f53cd445" alt="Screenshot 1">
-                        <p>Main Window</p>
-                    </div>
-                    <div class="screenshot-card">
-                        <img src="https://store-images.s-microsoft.com/image/apps.30698.14560804685957867.995a2227-dcbc-445d-b032-bcd904d69b01.33bcab37-36fc-4e58-a07b-7e4fffba4122" alt="Screenshot 2">
-                        <p>Fullscreen Mode</p>
-                    </div>
-                    <div class="screenshot-card">
-                        <img src="https://store-images.s-microsoft.com/image/apps.46762.14560804685957867.995a2227-dcbc-445d-b032-bcd904d69b01.856bf8d2-316e-4db6-9c6a-f92bf808eaf7" alt="Screenshot 3">
-                        <p>Banner Mode</p>
-                    </div>
-                </div>
-            </div>           
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Project Irist. All rights reserved.</p>
-    </footer>
+  <div class="wrap" role="status" aria-live="polite">
+    <div class="msg">My portfoloio is now at Chickadee-Labs.com — redirecting.</div>
+    <div class="spinner" aria-hidden="true"></div>
+    <div class="sub">You will be redirected in 5 seconds. If not, <a href="https://www.chickadee-labs.com/" style="color:#7CA982">click here</a>.</div>
+  </div>
+
+  <script>
+    // Update the URL below if you want a different redirect target
+    const REDIRECT_URL = 'https://www.chickadee-labs.com/';
+    // fallback JS redirect in case meta refresh is blocked
+    setTimeout(()=> { window.location.href = REDIRECT_URL; }, 5000);
+  </script>
 </body>
-</html>
